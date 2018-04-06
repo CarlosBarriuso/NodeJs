@@ -1,0 +1,12 @@
+INFO |00000.478|JanusDebugSession: readConfig: {"name":"Attach to Server","request":"attach","type":"janus","host":"localhost","debuggerPort":8089,"log":{"fileName":"C:\\wamp64\\www\\nodeJs/vscode-janus-debug-attach.log","logLevel":{"default":"Debug"}},"timeout":6000,"__sessionId":"6a164f60-0a4d-4d96-b540-5f89934078c2"}
+INFO |00000.479|JanusDebugSession: attachRequest
+DEBUG|00000.487|JanusDebugSession: sending sever_version Request ...
+DEBUG|00000.710|DebugConnection: registerResponseHandler: adding handler function for request: "a5f4ab56-de68-46c9-91e8-73c553a98070"
+DEBUG|00000.711|DebugConnection: sendRequest: server_version/a5f4ab56-de68-46c9-91e8-73c553a98070\n
+DEBUG|00000.711|DebugProtocolTransport: write on the socket
+DEBUG|00000.712|DebugAdapterIPC: connected to VS Code extension
+ERROR|00001.715|DebugProtocolTransport: received an error on the socket, maybe you connected on the wrong TCP port?
+ERROR|00001.715|JanusDebugSession: failed to connect to localhost:8089: ECONNREFUSED
+ERROR|00001.717|JanusDebugSession: remote closed the connection due to error
+DEBUG|00001.717|DebugAdapterIPC: disconnected from VS Code extension
+INFO |00001.719|JanusDebugSession: disconnectRequest; debug adapter running in attach config
